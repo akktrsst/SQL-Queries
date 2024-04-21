@@ -13,10 +13,10 @@ import streamlit as st
 load_dotenv()
 def sql(USER_INPUT):
     llm = ChatOpenAI(temperature=0)
-    host = 'localhost'
-    port = '3306'
-    username = 'root'
-    password = 'Abhishek123'
+    host = '######'
+    port = '####'
+    username = '####'
+    password = '#######'
     database_schema = 'chatbot'
     mysql_uri = f"mysql+pymysql://{username}:{password}@{host}:{port}/{database_schema}"
 
